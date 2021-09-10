@@ -1,0 +1,11 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Encyclopedia
+{% endblock %}
+
+{% block body %}
+<h1>{{ title }} is not found. </h1>
+<p>Please try again in home page.</p>
+<a class="btn btn-primary" href="{% url 'index' %}">Home Page</a>
+{% endblock %}
